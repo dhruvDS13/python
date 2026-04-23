@@ -6,11 +6,6 @@ for i in range(1,6):
     print(" "*(5-i), end="")
     print("* "*i)
 
-print("INVERTED PIRAMID STAR")    
-for i in range(5, 0, -1):
-    print("*" * i) # PYRAMId STAR
-    
-print("INVERTED PIRAMID STAR")
-for i in range(5, 0, -1):
-    print(" "*(5-i), end="")
-    print("* "*i)
+#1. Simple Star Pattern
+for i in range(1, 6):
+    print("*" * i)
