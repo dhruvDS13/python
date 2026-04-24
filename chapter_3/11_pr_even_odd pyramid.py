@@ -10,7 +10,7 @@ print("\n")
 #method 2
 n=5
 for i in range(1, n+1):
-    print(" "*(n-i)+"*"*(2*i))
+    print(" "*(n-i)+ "*" * (2*i))
 
 
 #7. Odd numbers pyramid upto 10
