@@ -29,4 +29,18 @@ while n>0:
     print(" "*space + "*"*n)
     n-=2
     space+=1
-    
+
+print("P6 Using List + Join","\n")
+n = 5
+
+for i in range(n, 0, -1):
+    spaces = [" "] * (n - i)
+    stars = ["*"] * (2*i - 1)
+    print("".join(spaces + stars))
+
+print("P6 Using String","\n")
+n = 5
+
+for i in range(n, 0, -1):
+    stars = "*" * (2*i - 1)
+    print(stars.center(2*n - 1))
