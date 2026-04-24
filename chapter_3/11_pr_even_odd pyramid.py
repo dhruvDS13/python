@@ -52,7 +52,7 @@ n = 5
 for i in range(1, n+1): 
     row = " ".join(str(2*j - 1) for j in range(1, 2*i))
     print(" " * (n - i) + row)
-    
+'''    
 # palindrome pyramid
 n = 5
 for i in range(1, n+1):
@@ -61,21 +61,4 @@ for i in range(1, n+1):
     row = left_half + " " + right_half if right_half else left_half
     print(" " * (n - i) + row)
     
-'''
-num = int(input("Enter number: "))
 
-if num < 0:
-    print("Not Palindrome")
-else:
-    temp = num
-    rev = 0
-
-    while num > 0:
-        digit = num % 10
-        rev = rev * 10 + digit
-        num = num // 10
-
-    if temp == rev:
-        print("Palindrome")
-    else:
-        print("Not Palindrome")
