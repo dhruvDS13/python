@@ -1,3 +1,8 @@
+#Counting Pyramid 1 to 5 * with spacing
+n=5
+for i in range(1,n+1):
+    print(" "*(n-i) + "* "*(i)) 
+
 '''
 #1. Left Star Pattern
 for i in range(1, 6): #LEFT SIDE PYRAMID
