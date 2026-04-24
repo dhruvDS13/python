@@ -6,6 +6,7 @@ for i in range(n):
 #Lower Part
 for i in range(n-2,-1,-1):
     print(" "*(n-i-1)+"*"*(2*i+1))
+    
 #Hollow Pyramid (with spaces)
 n = 5
 for i in range(n):
