@@ -1,5 +1,5 @@
 
-'''#6.Even numbers pyramid upto 10
+#6.Even numbers pyramid upto 10
 print("\n")
 #method 1
 n=5
@@ -19,13 +19,14 @@ print("method 1","\n")
 n=5
 for i in range(n):
     print(" "*(n-i-1)+"*"*(2*i+1))
-    
-print("Method 2","\n")
+
 #method 2
+print("method 2","\n") 
 n=5
-for i in range(1, n+1):
-    print(" "*(n-i)+"*"*(2*i-1))
-'''
+for i in range(1,n+1):
+    print(" "*(n-i)+ "*" *(2*i-1))
+
+
 '''
 # palindrome pyramid
 n = 5
@@ -51,9 +52,9 @@ for i in range(1, n+1):
 n = 5
 for i in range(1, n+1): 
     row = " ".join(str(2*j - 1) for j in range(1, 2*i))
-    print(" " * (n - i) + row)
-'''    
-# palindrome pyramid
+'''
+
+'''# palindrome pyramid
 n = 5
 for i in range(1, n+1):
     left_half = " ".join(str(j) for j in range(1, i+1))
@@ -62,3 +63,4 @@ for i in range(1, n+1):
     print(" " * (n - i) + row)
     
 
+'''
