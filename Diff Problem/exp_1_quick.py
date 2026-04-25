@@ -1,5 +1,4 @@
 #PROGRAM 1
-
 def quick_sort(arr, low=0, high=None):
     if high is None:
         high = len(arr) - 1
