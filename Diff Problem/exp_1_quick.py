@@ -17,4 +17,4 @@ def quick_sort(arr, low=0, high=None):
 # Example usage:
 arr = [10, 7, 8, 9, 1, 5]
 quick_sort(arr)
-print("Sorted array:", arr)
+print("Sorted array:", arr) 
