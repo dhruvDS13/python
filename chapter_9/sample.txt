@@ -1,8 +1,0 @@
-Dhruv is a Good boy
-He work on donkey python language
-good job donkey
-kaddu
-mote
-
-# cd = change directory (cd chapter_9)
-# cd.. for previous directory
