@@ -1,0 +1,9 @@
+*.docx
+*.mp3
+__pycache__/
+tempCodeRunnerFile.py
+*.txt  # Unless needed
+
+#git add .
+#git commit -m "Updated new files"
+#git push
