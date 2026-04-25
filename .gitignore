@@ -7,3 +7,9 @@ tempCodeRunnerFile.py
 #git add .
 #git commit -m "Updated new files"
 #git push
+
+#git rm -r chapter_* Shortcut (if all chapters are in same pattern)
+
+
+#if you want to keep locally but remove from GitHub
+#git rm -r --cached chapter_*
