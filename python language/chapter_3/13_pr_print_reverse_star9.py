@@ -16,15 +16,15 @@ else:
     
 # Basic method
 print("P3","\n")
-n=5 # ye 9 star tak print karega
-for i in range(1,n+1,-1):
-    print(" "*(n-i)+ "*"*(2*i-1))
+k=5 # ye 9 star tak print karega
+for j in range(5,0,-1):
+    print(" "*(k-j)+ "*"*(2*j-1))
 
 # Direct formula
 print("P4 Direct Formula","\n")
-n=5
-for i in range(n,0,-1):
-    print(" "*(n-i)+ "*"*(2*i-1))
+k=5
+for j in range(5,0,-1):
+    print(" "*(k-j)+ "*"*(2*j-1))
 
 # Using while loop
 print("P5 Using While Loop","\n")
