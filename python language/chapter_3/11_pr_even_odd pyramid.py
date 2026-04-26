@@ -18,7 +18,7 @@ for i in range(1,n+1):
     
     
 #6.Even numbers pyramid upto 10
-print("\n")
+print("\n","Even pyramid")
 #method 1
 n=5
 for i in range(n):
