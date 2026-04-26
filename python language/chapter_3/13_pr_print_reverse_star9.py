@@ -14,20 +14,15 @@ if i% 2!=0:
 else:
     print("even")
     
-# Basic method
-print("P3","\n")
-k=5 # ye 9 star tak print karega
-for j in range(5,0,-1):
-    print(" "*(k-j)+ "*"*(2*j-1))
 
 # Direct formula
-print("P4 Direct Formula","\n")
+print("P3 Direct Formula","\n")
 k=5
 for j in range(5,0,-1):
     print(" "*(k-j)+ "*"*(2*j-1))
 
 # Using while loop
-print("P5 Using While Loop","\n")
+print("P4 Using While Loop","\n")
 n=9
 space =0 
 while n>0:
@@ -36,7 +31,7 @@ while n>0:
     space+=1
 
 # Using List + Join
-print("P6 Using List + Join","\n")
+print("P5 Using List + Join","\n")
 n = 5
 for i in range(n, 0, -1):
     spaces = [" "] * (n - i)
@@ -44,7 +39,7 @@ for i in range(n, 0, -1):
     print("".join(spaces + stars))
 
 # Using String Center Method
-print("P7 Using String Center Method","\n")
+print("P6 Using String Center Method","\n")
 n = 5
 for i in range(n, 0, -1):
     stars = "*" * (2*i - 1)
