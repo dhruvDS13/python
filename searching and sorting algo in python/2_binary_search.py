@@ -18,4 +18,4 @@ print(f"Binary Search Result at index: {binary_search(arr, target)}")
 #Time Complexity:
 '''Best Case: 𝑂(1)
 Worst Case:O(nlogn) '''
-#Space Complexity: 𝑂(1).
+#Space Complexity: 𝑂(1)
