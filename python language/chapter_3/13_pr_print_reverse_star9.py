@@ -5,6 +5,7 @@ for i in range(n,0,-1):
     if i%2!=0:
         print(" "*space + "*"*(i))
         space+=1
+        
 # check if n is odd or even
 print("P2","\n")
 i=5
