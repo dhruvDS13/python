@@ -12,6 +12,7 @@ if i% 2!=0:
     print("odd")
 else:
     print("even")
+    
 # Basic method
 print("P3","\n")
 n=5 # ye 9 star tak print karega
