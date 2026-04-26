@@ -44,7 +44,7 @@ for i in range(n, 0, -1):
     print("".join(spaces + stars))
 
 # Using String Center Method
-print("P6 Using String","\n")
+print("P7 Using String Center Method","\n")
 n = 5
 for i in range(n, 0, -1):
     stars = "*" * (2*i - 1)
