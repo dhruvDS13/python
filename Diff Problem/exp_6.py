@@ -1,5 +1,4 @@
-#PROG 6
-
+#PROG 6 
 from collections import defaultdict
 
 class Graph:

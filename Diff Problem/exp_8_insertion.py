@@ -34,3 +34,4 @@ if __name__ == "__main__":
 #    print("Original array:", arr)
     insertion_sort(arr)
     print("Sorted array:", arr)
+
