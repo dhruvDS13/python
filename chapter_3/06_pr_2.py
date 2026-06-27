@@ -1,3 +1,4 @@
+
 letter = '''Dear <|NAME|>,
 Greetings form ABC coding house. I am happy to tell you about your selection
 You are selected!

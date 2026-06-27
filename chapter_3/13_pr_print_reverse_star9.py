@@ -24,11 +24,11 @@ for j in range(5,0,-1):
 # Using while loop
 print("P4 Using While Loop","\n")
 n=9
-space =0 
+i=0 
 while n>0:
-    print(" "*space + "*"*n)
+    print(" "*i + "*"*n)
     n-=2
-    space+=1
+    i+=1
 
 # Using List + Join
 print("P5 Using List + Join","\n")
