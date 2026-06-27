@@ -3,16 +3,19 @@ n=5
 for i in range(1,n+1):
     print(" "*(n-i) + "* "*(i)) 
 
-'''
+
 #1. Left Star Pattern
+print("Left Star Pattern")
 for i in range(1, 6): #LEFT SIDE PYRAMID
     print("*" * i)
-    
+
+print("Right Side Pyramid")    
 #2. Right Side Pyramid
 for i in range(1,6):
     print(" "*(5-i), end="")
     print("*" * i)
 
+print("right align")
 # right align
 n=5
 for i in range(1,6):
@@ -20,16 +23,15 @@ for i in range(1,6):
 
 
 #3 left reverse pyramid
+print("left reverse pyramid")
 print("\n")
 for i in range(5, 0, -1):   # -1 is used to decrease the value of i by 1 in each iteration
     print("*" * i)
 
+print("Reverse right side pyramid")
 #4. Reverse right side pyramid
 print("\n") 
 for i in range(5,0, -1):
     print(" "*(5-i), end=" ")
     print("*" *i)
-'''
-
-
 
