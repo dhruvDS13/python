@@ -17,4 +17,4 @@ if (a>25):
 if (a>35):
     print(f"The value is greator than {35}")
 else:
-    print("ok Done")
+    print("ok Done") # check else statement with last if statement only, it will not check with other if statement, it will check with last if statement only.

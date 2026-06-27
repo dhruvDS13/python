@@ -5,24 +5,24 @@ for i in range(n,0,-1):
     if i%2!=0:
         print(" "*space + "*"*(i))
         space+=1
+        
+# check if n is odd or even
 print("P2","\n")
 i=5
 if i% 2!=0:
     print("odd")
 else:
     print("even")
+    
 
-print("P3","\n")
-n=5 # ye 9 star tak print karega
-for i in range(1,n+1,-1):
-    print(" "*(n-i)+ "*"*(2*i-1))
+# Direct formula
+print("P3 Direct Formula","\n")
+k=5
+for j in range(5,0,-1):
+    print(" "*(k-j)+ "*"*(2*j-1))
 
-print("P4 Direct Formula","\n")
-n=5
-for i in range(n,0,-1):
-    print(" "*(n-i)+ "*"*(2*i-1))
-
-print("P5 Using While Loop","\n")
+# Using while loop
+print("P4 Using While Loop","\n")
 n=9
 space =0 
 while n>0:
@@ -30,17 +30,17 @@ while n>0:
     n-=2
     space+=1
 
-print("P6 Using List + Join","\n")
+# Using List + Join
+print("P5 Using List + Join","\n")
 n = 5
-
 for i in range(n, 0, -1):
     spaces = [" "] * (n - i)
     stars = ["*"] * (2*i - 1)
     print("".join(spaces + stars))
 
-print("P6 Using String","\n")
+# Using String Center Method
+print("P6 Using String Center Method","\n")
 n = 5
-
 for i in range(n, 0, -1):
     stars = "*" * (2*i - 1)
     print(stars.center(2*n - 1))
